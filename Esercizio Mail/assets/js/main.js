@@ -15,7 +15,7 @@
 
 buttonVerify.addEventListener('click', function () {
 
-  if (mailList.includes(inputEmailValue)) {
+  if (mailList.includes(inputEmail.value)) {
     document.getElementById('result').innerHTML = "La mail è presente nella lista!" ;
   } else {
     document.getElementById('result').innerHTML = "Purtroppo la mail non è presente nella lista" ;
