@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Gioca dei dadi</title>
   </head>
   <body>
-
+    <div class="container">
+      <h2>Gioca a dadi contro il tuo pc in un click!</h2>
+      <p>Facendo click sul pulsante "Lancia i dadi ora!" lancerai un dado ottenendo un punteggio che va da 1 a 6, e lo stesso avverrà per il tuo avversario, il tuo browser! Vince chi ottiene il punteggio più alto, in caso di punteggio uguale ci sarà un pareggio.</p>
+      <button type="button" id="play-button"> Lancia i dadi ora! </button>
+      <div id="your-points"></div>
+      <div id="pc-points"></div>
+      <h3 id="victory"></h3>
+      <button type="button" id="reset-button"> Azzera punteggio </button>
+    </div>
 
     <script type="text/javascript" src="assets/js/main.js">
 

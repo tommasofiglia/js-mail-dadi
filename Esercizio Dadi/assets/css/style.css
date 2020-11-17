@@ -1,0 +1,10 @@
+.container{
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+#reset-button{
+  display: none;
+  margin: auto;
+}
