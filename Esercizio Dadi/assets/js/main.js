@@ -2,8 +2,8 @@ var playButton = document.getElementById('play-button');
 var resetButton = document.getElementById('reset-button');
 
 // Dichiaro le variabili relative ai pòunteggi
-var yourPoints = Math.floor(Math.random() * 5) + 1;
-var pcPoints = Math.floor(Math.random() * 5) + 1;
+var yourPoints = Math.floor(Math.random() * 6) + 1;
+var pcPoints = Math.floor(Math.random() * 6) + 1;
 
 
 // Calcolo del vincitore
